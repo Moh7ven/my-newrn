@@ -10,6 +10,7 @@ const App = () => {
       <View>
         <Text>Yes</Text>
         <FontAwesomeIcon icon={faMugSaucer} />
+        <FontAwesomeIcon icon={faMugSaucer} />
       </View>
     </SafeAreaView>
   );
