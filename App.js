@@ -9,7 +9,6 @@ const App = () => {
     <SafeAreaView>
       <View>
         <Text>Yes</Text>
-        <Text>Yes</Text>
         <FontAwesomeIcon icon={faMugSaucer} />
       </View>
     </SafeAreaView>
