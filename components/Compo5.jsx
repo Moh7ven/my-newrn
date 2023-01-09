@@ -41,8 +41,8 @@ const Compo5 = ({ firstName, lastName }) => {
           {etudiant.prenom} {etudiant.nom}
         </Text>
         <Button
-          title={"hange prenom de l'etudiant"}
-          onPress={changePrenom2} // changer la founction
+          title={"Change prenom de l'etudiant"}
+          onPress={changePrenom2} // remplacer la founction avec changePrenom1 ou changePrenom3
           color="#0400ff"
         />
       </View>
