@@ -2,20 +2,22 @@ import { Button, StyleSheet, Text, View } from "react-native";
 import React, { useState } from "react";
 
 const Compo5 = ({ firstName, lastName }) => {
-  const [nam, setNam] = useState({ first: "", last: "" });
+  // 1
+  const [name, setName] = useState({ first: "", last: "" });
   const [clic, setClic] = useState(false);
-  const [etudiant, setNom] = useState({ nom: "Konate", prenom: "Bakary" });
+  // 2
+  const [etudiant, setEtudiant] = useState({ nom: "Konate", prenom: "Bakary" });
   //Cas 1
   const changePrenom1 = () => {
-    setNom({ ...etudiant, prenom: lastName });
+    setEtudiant({ ...etudiant, prenom: lastName });
   };
   //Cas 2
   const changePrenom2 = () => {
-    setNom((prev) => ({ ...prev, prenom: lastName }));
+    setEtudiant((prev) => ({ ...prev, prenom: lastName }));
   };
   //Cas 3
   const changePrenom3 = () => {
-    setNom((prev) => {
+    setEtudiant((prev) => {
       return { ...prev, prenom: lastName };
     });
   };
@@ -24,13 +26,13 @@ const Compo5 = ({ firstName, lastName }) => {
       <Text>Compo5</Text>
 
       <Text>
-        {clic && "Hello"} {nam.first} {nam.last}
+        {clic && "Hello"} {name.first} {name.last}
       </Text>
 
       <Button
         title={"Dites hello"}
         onPress={() => {
-          setNam({ first: firstName, last: lastName });
+          setName({ first: firstName, last: lastName });
           setClic(true);
         }}
         color="#841584"
