@@ -12,8 +12,8 @@ const Compo4 = ({ firstName, lastName = "" }) => {
 
       <Button
         title={"clic me"}
-        onPress={() => setName("Konate")}
-        color="#841584"
+        onPress={() => setName("Mohamed")}
+        color="#9933FF"
       />
     </View>
   );

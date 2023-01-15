@@ -21,7 +21,7 @@ const App = () => {
         <FontAwesomeIcon icon={faMugSaucer} />
         <Compo3 firstName={"bakary"} lastName={"sangare"} />
         <FontAwesomeIcon icon={faArrowDownUpAcrossLine} />
-        <Compo4 firstName={"bakary"} />
+        <Compo4 firstName={"Sangare"} />
         <FontAwesomeIcon icon={faArrowDownUpAcrossLine} />
         <Compo5 firstName={"Bakary"} lastName={"Jobala"} />
         <FontAwesomeIcon icon={faArrowDownUpAcrossLine} />
