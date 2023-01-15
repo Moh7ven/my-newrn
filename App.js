@@ -19,7 +19,7 @@ const App = () => {
         <Compo1 />
         <Compo2 text="Bakary" />
         <FontAwesomeIcon icon={faMugSaucer} />
-        <Compo3 firstName={"bakary"} />
+        <Compo3 firstName={"bakary"} lastName={"sangare"} />
         <FontAwesomeIcon icon={faArrowDownUpAcrossLine} />
         <Compo4 firstName={"bakary"} />
         <FontAwesomeIcon icon={faArrowDownUpAcrossLine} />
